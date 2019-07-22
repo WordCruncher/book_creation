@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<etax id="Insert Unique UUID Here">
+
+<sifx>
+<!-- Your individual etax files each contain a sifx section. The master file must contain all of the sifx elements found in the smaller files. -->
+</sifx>
+
+<include file="File1.etax"/>
+<include file="File2.etax"/>
+<include file="File3.etax"/>
+
+</etax>
