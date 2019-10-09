@@ -4,8 +4,11 @@
 <sifx>
 <!-- Your individual etax files each contain a sifx section. The master file must contain all of the sifx elements found in the smaller files. -->
 </sifx>
+  
+<!-- You can add XML, TXT, RTF, or ETAX files in the file attribute. For TXT files, it's easier to use the indexer to append text files. -->
+<!-- See the Youtube tutorial for appending text files here: https://www.youtube.com/watch?v=aXK6bFHc2yc&feature=youtu.be -->
 
-<include file="File1.etax"/>
+<include file="File1.etax"/> 
 <include file="File2.etax"/>
 <include file="File3.etax"/>
 
